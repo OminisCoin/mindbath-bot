@@ -1,0 +1,18 @@
+{
+  "name": "mindbath-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram bot for MindBath ($BATH) Solana meme coin holder verification",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "@solana/web3.js": "^1.95.3",
+    "@solana/spl-token": "^0.4.6",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
